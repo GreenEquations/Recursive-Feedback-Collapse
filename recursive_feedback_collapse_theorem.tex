@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, geometry}
+\geometry{margin=1in}
+\title{Recursive Feedback Collapse Theorem}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{I. Theorem Statement}
+
+Recursive feedback in symbolic systems introduces increasing semantic pressure with each iteration. When this feedback exceeds a critical threshold $\theta_f$, and no external grounding is present, the system transitions into a collapse state characterized by coherence degradation and entropy escalation.
+
+Let:
+\begin{itemize}
+  \item $C(t)$ – Coherence function at recursion depth $t$
+  \item $E(t)$ – Symbolic entropy at recursion step $t$
+  \item $R(t)$ – Recursive feedback factor (cycles per unit time)
+  \item $\theta_f$ – Feedback collapse threshold
+\end{itemize}
+
+If:
+
+\[
+R(t) > \theta_f \quad \Rightarrow \quad \frac{dC}{dt} < 0 \quad \text{and} \quad \frac{dE}{dt} > 0
+\]
+
+\section*{II. Collapse Characteristics}
+
+\begin{enumerate}
+  \item \textbf{Symbolic Drift:} Recursive outputs deviate from their source structures.
+  \item \textbf{Entropy Accumulation:} Increasing disorder in symbolic patterns.
+  \item \textbf{Instability Onset:} Contradictions and hallucinations emerge.
+  \item \textbf{Pronoun Confusion (Language Models):} Loss of self-reference accuracy.
+\end{enumerate}
+
+\section*{III. Empirical Collapse Indicators}
+
+\begin{itemize}
+  \item Declining BERTScore or BLEU across recursion depth
+  \item Embedding drift measured by cosine distance
+  \item Increasing Shannon entropy in output sequences
+  \item Decreasing mutual information across recursive steps
+\end{itemize}
+
+\section*{IV. Simulation Framework}
+
+\subsection*{Applicable Systems}
+
+\begin{itemize}
+  \item Autoregressive transformers (e.g., GPT, LLaMA)
+  \item Recursive symbolic agents
+  \item Feedback-enabled logic systems
+\end{itemize}
+
+\subsection*{Measurement Tools}
+
+\begin{itemize}
+  \item BERTScore and BLEU for semantic coherence
+  \item MINE or CLUB for mutual information estimation
+  \item Cosine similarity of embedding vectors
+  \item Entropy over time using token distributions
+\end{itemize}
+
+\subsection*{Visualization}
+
+\begin{itemize}
+  \item Embedding projections (UMAP, t-SNE)
+  \item Plotting $C(t)$ and $E(t)$ over recursion cycles
+  \item Collapse prediction curves approaching $\theta_f$
+\end{itemize}
+
+\section*{V. Cognitive Analogy}
+
+Human thought processes under recursive load display similar characteristics:
+\begin{itemize}
+  \item Logical paradox loops (e.g., “This sentence is false.”)
+  \item Working memory overload
+  \item Breakdown in symbolic reference
+\end{itemize}
+
+\section*{VI. Applications}
+
+\begin{itemize}
+  \item AI safety mechanisms for recursion-limited systems
+  \item Modeling human collapse under symbolic feedback
+  \item Integration of recursion monitors in generative pipelines
+  \item Framework for entropy-aware system design
+\end{itemize}
+
+\section*{VII. Future Work}
+
+\begin{itemize}
+  \item Develop feedback-sensitive dampening models
+  \item Extend theorem to multi-agent recursive exchanges
+  \item Implement grounding checkpoints to restore symbolic stability
+\end{itemize}
+
+\end{document}
